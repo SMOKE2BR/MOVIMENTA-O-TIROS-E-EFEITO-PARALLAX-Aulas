@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 # Parallax + Disparos (Phaser 3)
 
 ## Estrutura
-- index.html
-- main.js
-- assets/
-  - bg_far.png
-  - bg_mid.png
-  - bg_near.png
-  - ship.png
-  - bullet.png
+- `index.html`
+- `main.js`
+- `assets/`
+  - `bg_far.png`
+  - `bg_mid.png`
+  - `bg_near.png`
+  - `ship.png`
+  - `bullet.png`
 
 ## Como executar (local)
 1. Coloque todos os arquivos em uma pasta.
@@ -18,7 +17,7 @@
    - Ou com Python 3: `python -m http.server 8000`
 3. Abra no navegador: `http://localhost:8080` (ou `http://localhost:8000` conforme o servidor).
 
-> Não abra o `index.html` diretamente pelo sistema de arquivos; alguns navegadores bloqueiam carregamento de assets sem servidor.
+> ⚠️ Não abra o `index.html` diretamente pelo sistema de arquivos; alguns navegadores bloqueiam o carregamento de assets sem servidor.
 
 ## Controles
 - **Setas**: mover a nave (↑ ↓ ← →)
@@ -34,7 +33,7 @@
   - Pool de projéteis (máx 50) para evitar criação/destruição excessiva.
   - Direção do projétil definida pelo estado das teclas direcionais no momento do disparo.
   - Projéteis são desativados ao sair da tela e reaproveitados.
-- **Cooldown** entre tiros para evitar disparo excessivo.
+  - Cooldown entre tiros para evitar disparo excessivo.
 
 ## Roteiro curto para demonstração (vídeo)
 1. Inicie o servidor e abra o jogo.
@@ -49,6 +48,3 @@
 - Ajuste `this.sceneSpeed` em `main.js` para aumentar/diminuir a velocidade do parallax.
 - Troque as imagens em `assets/` por outras tileáveis para melhor efeito visual.
 - Para adicionar som ao disparo, carregue um áudio em `preload()` e toque em `spawnBullet()`.
-
-# MOVIMENTA-O-TIROS-E-EFEITO-PARALLAX-Aulas
->>>>>>> 0242d3c251cf796176f97e786deeac6290f45a25
