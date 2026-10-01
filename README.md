@@ -50,7 +50,5 @@
 - Troque as imagens em `assets/` por outras tileáveis para melhor efeito visual.
 - Para adicionar som ao disparo, carregue um áudio em `preload()` e toque em `spawnBullet()`.
 
-Boa sorte na entrega. Se quiser, eu gero um arquivo ZIP com esses arquivos prontos (conteúdo) ou adapto o código para Godot/Unity. Quer que eu gere um roteiro de gravação do vídeo com falas curtas para você narrar?  
-=======
 # MOVIMENTA-O-TIROS-E-EFEITO-PARALLAX-Aulas
 >>>>>>> 0242d3c251cf796176f97e786deeac6290f45a25
